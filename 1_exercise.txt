@@ -1,0 +1,25 @@
+For example:
+
+Lets create a text view:
+
+In the XML code you should have:
+
+ <TextView
+        android:id="@+id/course_item1_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:textColor="@color/white"
+        android:scrollbars="vertical"/>
+		
+		
+This xml is the source code for this red rectangle
+
+id - is the id
+width - is the width
+height - is the height
+the layout params are for aligment
+and finally
+we add text color and scrollbars
