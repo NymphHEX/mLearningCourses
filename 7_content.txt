@@ -1,0 +1,13 @@
+	In this course we will set a google maps marker on drumul gazarului, Bucuresti, Romania.
+
+	For this we will have a new activity, Maps template.
+
+	In addition we will have to get an api key from GMaps. To make it easy
+go to the fallowing site:
+https://developers.google.com/maps/documentation/javascript/get-api-key
+	
+	Once your api key is generated insert it in the google_maps_api. Android
+generates it very well and it's easy to find where.
+
+	All you have to do after is to start this new intent.
+	Below you have the code for the app that starts at the button present on this page.

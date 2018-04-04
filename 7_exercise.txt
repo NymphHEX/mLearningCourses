@@ -1,0 +1,27 @@
+For the code in Maps activity:
+
+ public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+
+        // Add a marker in Drumul Gazarului and move the camera
+        LatLng drumulGazarului = new LatLng(44.386629, 26.092142);
+        mMap.addMarker(new MarkerOptions().position(drumulGazarului).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(drumulGazarului,20.5f));
+    }
+
+For the XML of the maps ( usually in Values folder ) :
+
+	<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIza****</string>
+
+Start of maps app:
+
+	Button btn=(Button) findViewById(R.id.map_button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),Maps.class);
+                startActivity(intent);
+            }
+        });
+
+Finally, press the button below to see the result :D
