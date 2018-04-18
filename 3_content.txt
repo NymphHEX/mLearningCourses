@@ -1,0 +1,36 @@
+You see the items in the main course meny?
+
+Shinny aren't em.
+
+And also: they generate automaticly !!!
+
+
+How?
+
+ GridView + Custom Adaptar.
+ 
+ 
+ 
+The main ideea is custom adapter.Yes.
+
+An Adapter object acts as a bridge between an AdapterView and the underlying data for that view. 
+The Adapter provides access to the data items. T
+he Adapter is also responsible for making a View for each item in the data set.
+
+Base adapter = Common base class of common implementation for an Adapter that can be used in both ListView 
+(by implementing the specialized ListAdapter interface) and Spinner (by implementing the specialized SpinnerAdapter interface).
+
+
+GridView :
+
+
+GridView is a ViewGroup that displays items in a two-dimensional, scrollable grid. The grid items are automatically inserted to the layout using a ListAdapter.
+
+Note: For better performance and tooling support, you should instead build your layout with ConstraintLayout.
+
+For an introduction to how you can dynamically insert views using an adapter, read Building Layouts with an Adapter.
+
+
+Same like Layouts but with posibility of programility.
+
+Below we will see how we made a custom adapter + grid view by inflating some cardsViews from a data set using this "customAdapter.
